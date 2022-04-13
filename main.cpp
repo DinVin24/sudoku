@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-ifstream f ("nrcurat.in");
+ifstream f ("date.in");
 int n,x,y;
 struct {int val;bool fix;}s[101][101];
 void init(){if(!s[x][y].fix)s[x][y].val=0;}
